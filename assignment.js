@@ -1,8 +1,6 @@
 // https://github.com/azizsheq/Assignment-Three
 // github repositori link above ^
 
-// then copy the whole file and submit into the submission box
-
 /**
  * kilometerToMeter
  * this function to receive a kilometer unit
@@ -25,9 +23,7 @@ function kilometerToMeter(km) {
         return meter;
     }
 }
-// test
-var meter = kilometerToMeter(1);
-console.log(meter);
+
 
 /**
  * budgetCalculator
@@ -57,9 +53,6 @@ function budgetCalculator(numOfWatch, numOfPhone, numOfLaptop) {
         return totalPrice;
     }
 }
-//test
-var cart = budgetCalculator(0, 0, 1);
-console.log(cart);
 
 
 /**
@@ -99,9 +92,7 @@ function hotelCost(duration) {
         return totalRent = lapOne + lapTwo + lapThree;
     }
 }
-// test
-var hotelStay = hotelCost(1);
-console.log(hotelStay);
+
 
 /**
  * megaFriend
@@ -132,7 +123,3 @@ function megaFriend(nameArray) {
     }
     return megaName;
 }
-//test
-var friendName = ["Abul Kalam", "Jhon", "X", "Mr No One and Someone",];
-var biggest = megaFriend(friendName);
-console.log(biggest);
